@@ -18,6 +18,7 @@ The system keeps Audit in a LOG table, updated every night at 2'AM.
 	 
 
 4	Dataset
+
 4.1	References
 
 "Mockaroo" for generating random Names (Borrower), Phone numbers, ID's, Emails, logical Dates, and ranged integers to associate existing entities PK - https://mockaroo.com/
@@ -38,6 +39,7 @@ And, first name =IFERROR(LEFT(A2,Z),A2)
 
 In Excel, punctuation mark Apostrophe (') removed from all strings, and to complete the table "Mockaroo" data was added. Then, table's data combined to a single column, using CONCATUNATE function in order to form: ('columnX', 'columnY').
 In Sublime Text 3, the insert command text was joined with the Excel concatenated fixed column, using Ctrl-Shift-L for Edit All mode.
+
 5	Create table
 
 Create table (and Data inserts) is attached.

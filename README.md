@@ -42,5 +42,7 @@ In Sublime Text 3, the insert command text was joined with the Excel concatenate
 
 5	Create table
 
-Create table (and Data inserts) is attached.
+Create table (and Data inserts) is attached.  
+  
+[See Library Database code](https://github.com/amirnavon/Library_Database/blob/master/create_db_library.sql)
 
